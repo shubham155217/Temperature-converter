@@ -1,0 +1,114 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+
+    }
+
+    body {
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(to bottom right, red, yellow);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        background-color: rgb(252, 184, 195);
+        border-radius: 15px;
+        box-shadow: -6px -6px 20px black;
+        padding: 10px;
+        height: 60vh;
+
+    }
+
+    .head {
+        text-shadow: 5px 5px 10px white;
+        font-weight: 900;
+        font-size: 30px;
+        font-family: "Cabin", sans-serif;
+    }
+
+    .i {
+        height: 45px;
+        width: 300px;
+        border-bottom: 5px solid white;
+        outline: none;
+        background: transparent;
+        font-size: 30px;
+
+    }
+
+    #ibox1 {
+        position: relative;
+        left: 94px;
+    }
+
+    #ibox2 {
+        position: relative;
+        left: 50px;
+    }
+
+    #ibox3 {
+        position: relative;
+        left: 105px;
+    }
+
+    span {
+        font-size: 35px;
+    }
+
+    .small {
+        margin-top: 60px;
+        font-weight: 500
+
+    }
+
+    .btn {
+        height: 60px;
+        width: 210px;
+        background-color: green;
+        color: white;
+        font-size: 25px;
+        font-weight: 600;
+        border-radius: 15px;
+        outline: none;
+    }
+
+    .btn:hover {
+        background-color: whitesmoke;
+        color: green;
+        box-shadow: 5px 5px 20px black;
+        cursor: pointer;
+    }
+
+    .btn:active {
+        transform: translate(3px, 3px);
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+
+    }
+
+    @media only screen and (max-width: 600px) {
+        .container {
+            width: 95%;
+            height: 80%;
+            max-width: 400px;
+        }
+
+        .i {
+            width: 70%;
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            font-size: 20px;
+            width: 100%;
+        }
+
+    }
